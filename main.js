@@ -440,6 +440,10 @@ Bunny.prototype.run = function() {
 
   this.eyeR.scale.y = this.eyeL.scale.y = p.eyeMinScale + Math.abs(Math.cos(t * 0.5 + p.eyeCycleOffset)) * (p.eyeMaxScale - p.eyeMinScale);
 
+  // tail animation
+
+  this.tail.rotation.x = Math.cos(t + p.tailCycleOffset) * p.tailRotationAmplitude;
+
   // paws animation
 
   this.pawFR.position.y = 1.5 + Math.sin(t + p.pawFRCycleOffset) * p.pawFRAmplitudeY;
