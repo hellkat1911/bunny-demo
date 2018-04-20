@@ -7,3 +7,5 @@ All credit and code-worship for this demo belongs solely to Karim Maaloul (@Yaku
 This repo is simply for myself and others to hone our Three.js animation chops based on his good work.
 
 Cheers
+
+![alt text](http://github.com/hellkat1911/bunny-demo/img/bunny-thumb.png)
