@@ -8,4 +8,4 @@ This repo is simply for myself and others to hone our Three.js animation chops b
 
 Cheers
 
-![alt text](http://github.com/hellkat1911/bunny-demo/img/bunny-thumb.png)
+![alt text](https://github.com/hellkat1911/bunny-demo/blob/master/img/bunny-thumb.png)
