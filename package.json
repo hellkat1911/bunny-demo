@@ -1,0 +1,16 @@
+{
+  "name": "bunnydemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^1.20.4",
+    "jshint": "^2.9.5",
+    "three": "^0.92.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bunny Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <style>
+
+    body {
+      margin: 0;
+    }
+    canvas {
+      display: block;
+    }
+    #button {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+    #button > button {
+      padding: 5px 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="button">
+      <button>Toggle animation</button>
+    </div>
+  </div>
+
+  <script src="./node_modules/gsap/src/uncompressed/TweenMax.js"></script>
+  <script src="./node_modules/gsap/src/uncompressed/easing/EasePack.js"></script>
+  <script src="./node_modules/three/build/three.min.js"></script>
+  <script src="./node_modules/three/examples/js/controls/OrbitControls.js"></script>
+  <script src="./node_modules/three/examples/js/Detector.js"></script>
+  <script src="./node_modules/three/examples/js/libs/stats.min.js"></script>
+  <script src="./node_modules/three/examples/js/libs/dat.gui.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+</html>
